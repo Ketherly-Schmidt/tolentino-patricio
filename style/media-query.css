@@ -2,6 +2,14 @@
 
     /*Cabeçalho / menu*/
 
+    .header{
+        max-width: 999px;
+        max-height: 500px;
+        min-width: 414px;
+        min-height: 252px;
+
+    }
+
     .hamburguer {
         display: block;
         z-index: 1;
@@ -74,7 +82,127 @@
 
     /*sobre nós*/
 
+    .sobre {
+        display: flex;
+        padding: 32px 64px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 32px;
+        align-self: stretch;
+        flex-wrap: wrap;
+    }
+
+    .foto-sobre {
+
+        min-width: 350px;
+        max-width: 557px;
+        min-height: 181px;
+        max-height: 371px;
+    }
+
+
+    /*Rodapé*/
+
+    footer {
+
+        min-height: 250px;
+        padding: 32px 32px;
+        gap: 24px;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    
+    .dados-contato{
+        display: flex;
+        min-width: 350px;
+        max-width: 595px;
+        flex-direction: column;
+        gap: 16px;
+        flex: 1 0 0;
+
+    }
+    
+    .icon-contato {
+        gap: 24px;
+
+    }
+
+    .icon-contato a img {
+        display: flex;
+        width: 48px;
+        height: 48px;
+
+
+    }
+
+    .texto-contato {
+        align-items: center;
+    }
+    
+    .endereco, .numero, .email {
+        font-size: 1.2rem;
+
+    }
+    
     
 
 
 }
+
+@media (max-width: 650px){
+
+    /*Atuação*/
+
+    .atuacao{
+        display: flex;
+        padding: 32px 32px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+    
+    .titulo-atuacao{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .atuacao h3{
+        font-size: 2rem;
+        text-align: center;
+
+    }
+    
+    .atuacao h2{
+        font-size: 3rem;
+        text-align: center;
+
+    }
+    
+    .atuacao ul {
+        display: block;
+        align-self: stretch;
+        flex-wrap: wrap;
+    }
+    
+    .atuacao ul div {
+        display: flex;
+        margin-bottom: 16px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    /*Equipe*/
+
+
+}
+
+
