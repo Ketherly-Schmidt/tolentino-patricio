@@ -4,6 +4,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*Cabeçalho e menu*/
 
 .header{
@@ -62,7 +66,7 @@ a:hover{
 
 .sobre {
     display: flex;
-    min-height: 400px;
+    min-height: 70vh;
     padding: 32px 64px;
     justify-content: center;
     align-items: center;
@@ -105,7 +109,7 @@ a:hover{
 
 .atuacao{
     display: flex;
-    min-height: 300px;
+    min-height: 70vh;
     padding: 64px 0px;
     justify-content: center;
     align-items: center;
@@ -224,10 +228,29 @@ footer {
     gap: 21px;
 }
 
+.icon-contato a img {
+    display: flex;
+    width: 48px;
+    height: 48px;
+}
+
 .endereco, .numero, .email {
     color: #000;
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+/*Botão flutuante / whatsapp */
+
+.whats{
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    z-index: 9999;
+}
+
+.whats img {
+    width: 76px;
 }
