@@ -1,133 +1,12 @@
-/*
 @media (max-width: 999px){
 
-    body{
-        overflow-x: hidden;
-    }
-
-    .menu {
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 100vw;
-        height: 92vh;
-        background-color: #164361;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
-
-    }
-
-    .nav-item {
-        margin-left: 0;
-        opacity: 0;
-    }
-
-    #burguer {
-        display: block;
-    }
-
-    .menu.active{
-        transform: translateX(0);
-    }
-
-
-}
-
-*/
-
-/*
-
-@media (max-width: 750px){
-
-    .icon {
-        display: block;
-    }
-
-    .nav-list {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background: #164361;
-
-        clip-path: circle(100px at 90% -15%);
-        transition: 1s ease-out;
-
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        gap: 0;
-        pointer-events: none;
-    }
-
-    .nav.active .nav-list {
-        clip-path: circle(1500px at 90% -15%);
-        pointer-events: all;
-    }
-
-
-
-}
-
-
-/*
-
-@media (max-width: 750px){
-
-    .nav-bar {
-        padding: 1.5rem 4rem;
-
-    }
-
-    .nav-item {
-        display: none;
-    }
-
-    .mobile-menu-icon {
-        display: block;
-
-    }
-
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-
-    }
-
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-
-    .open{
-        display: block;
-    }
-
-
-}
-
-*/
-
-@media (max-width: 999px){
+    /*Cabeçalho / menu*/
 
     .hamburguer {
         display: block;
         z-index: 1;
  
     }
-
-
 
     .nav-list{
         position: fixed;
@@ -192,6 +71,8 @@
         right: 16px;
         border-top-color: transparent;
     }
+
+    /*sobre nós*/
 
     
 
