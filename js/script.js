@@ -35,6 +35,8 @@ const nav = document.querySelector(".nav");
 icon.addEventListener("click", () => nav.classList.toggle("active"));
 */
 
+/*
+
 function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')){
@@ -43,3 +45,11 @@ function menuShow() {
         menuMobile.classList.add('open')
     }
 }
+
+*/
+
+const hamburguer = document.querySelector(".hamburguer");
+
+const nav = document.querySelector(".nav");
+
+hamburguer.addEventListener("click", () => nav.classList.toggle("active"));
