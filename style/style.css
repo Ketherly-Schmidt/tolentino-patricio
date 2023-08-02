@@ -18,6 +18,13 @@ html {
     align-self: stretch;
 }
 
+.nav-item {
+    color: #fff;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 
 a{
     text-decoration: none;
@@ -61,6 +68,47 @@ a:hover{
     border: none;
     cursor: pointer;
 }
+
+/*Submenu*/
+
+.nav-item:hover ul {
+    display: block;
+
+}
+
+.submenu{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(231, 231, 231);
+    display: none;
+    position: absolute;
+    width: 16rem;
+    
+
+}
+
+.submenu li {
+    display: inline;
+
+}
+
+.submenu li a {
+    display: block;
+    padding: 10px;
+    color: #181818;
+    flex: 1 0 0;
+    border-bottom: 1.2px solid rgb(0, 0, 0,.1);
+    margin: 5px;
+}
+
+.submenu li a:hover {
+    color: #FFF;
+    background-color: #164361;
+    opacity: 1;
+
+    
+}
+
 
 /*Sobre nós*/
 

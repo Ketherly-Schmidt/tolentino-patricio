@@ -39,6 +39,11 @@
         opacity: 0;
     }
 
+    .nav-item {
+        font-size: 1.5rem;
+
+    }
+
     .nav-list li:nth-child(1) a {
         transition: 0.5s 0.2s;
     }
@@ -78,6 +83,41 @@
         top: 26px;
         right: 16px;
         border-top-color: transparent;
+    }
+
+    /*submenu*/
+    .nav-item:hover ul {
+        align-items: center;
+        text-align: center;
+    
+    }
+
+    .nav-item:active ul {
+        align-items: center;
+        text-align: center;
+        background-color: #0d2a3d;
+    
+    }
+    .submenu{
+        position: relative;
+        width: 100vw;
+        background-color: #164361;
+        align-items: center;
+    }
+
+    .submenu li {
+        align-items: center;
+    }
+
+    .submenu li a {
+        display: block;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        color: #ffffff;
+        flex: 1 0 0;
+        border-bottom: 1.2px solid rgba(255, 255, 255, 0.1);
+        margin: 5px;
     }
 
     /*sobre nós*/
