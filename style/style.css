@@ -223,6 +223,7 @@ a:hover{
 
     align-self: stretch;
     flex-wrap: wrap;
+    min-height: 70vh;
 
 
     align-items: flex-start;
@@ -264,7 +265,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    text-align: center;
+
     gap: 24px;
     min-width: 350px;
     max-width: 400px;
