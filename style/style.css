@@ -79,6 +79,7 @@ a:hover{
 
 .submenu{
     list-style-type: none;
+    text-align: left;
     padding: 0;
     background-color: rgb(231, 231, 231);
     display: none;

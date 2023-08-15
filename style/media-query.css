@@ -35,7 +35,7 @@
         z-index: 2;
     }
 
-    .nav-list a {
+    .nav-list a, .nav-item-sub{
         font-size: 1.5rem;
         opacity: 0;
     }
@@ -61,11 +61,8 @@
     .nav-list li:nth-child(4) a {
         transition: 0.5s 0.5s;
     }
-    .nav-list li:nth-child(5) a {
+    .nav-item-sub {
         transition: 0.5s 0.6s;
-    }
-    .nav-list li:nth-child(6) a {
-        transition: 0.5s 0.7s;
     }
 
 
@@ -74,7 +71,7 @@
         pointer-events: all;
     }
     
-    .nav.active .nav-list a {
+    .nav.active .nav-list a, .nav-item-sub {
         opacity: 1;
     }
     
