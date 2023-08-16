@@ -18,7 +18,12 @@ html {
     align-self: stretch;
 }
 
-.nav-item, .nav-item-sub {
+ul {
+    list-style: none;
+
+}
+
+.nav-item, .nav-list-sub a {
     color: #fff;
     font-size: 1.2rem;
     transition: 0.3s;
@@ -40,7 +45,7 @@ a:hover{
     height: 60px;
 }
 
-.nav {
+.nav, .nav-list-sub {
     max-width: 1280px;
     height: 90px;
     margin-inline: auto;
@@ -48,6 +53,7 @@ a:hover{
     justify-content: space-between;
     align-items: center;
 }
+
 
 .nav-list {
     display: flex;
@@ -68,11 +74,12 @@ a:hover{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    text-align: right;
 }
 
 /*Submenu*/
 
-.nav-item-sub:hover ul {
+.nav-item:hover ul {
     display: block;
 
 }
@@ -80,11 +87,12 @@ a:hover{
 .submenu{
     list-style-type: none;
     text-align: left;
-    padding: 0;
+    align-items: center;
     background-color: rgb(231, 231, 231);
     display: none;
     position: absolute;
-    width: 16rem;
+    width: 18rem;
+    border-radius: 5px;
     
 
 }
@@ -96,19 +104,24 @@ a:hover{
 
 .submenu li a {
     display: block;
-    padding: 10px;
+    padding: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: #181818;
     flex: 1 0 0;
-    border-bottom: 1.2px solid rgb(0, 0, 0,.1);
-    margin: 5px;
 }
 
 .submenu li a:hover {
     color: #FFF;
+    border-radius: 5px;
     background-color: #164361;
     opacity: 1;
 
     
+}
+
+.mobile-menu {
+    display: none;
 }
 
 

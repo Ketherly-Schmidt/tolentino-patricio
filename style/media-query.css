@@ -10,6 +10,8 @@
 
     }
 
+    /*
+
     .hamburguer {
         display: block;
         z-index: 3;
@@ -81,6 +83,62 @@
         right: 16px;
         border-top-color: transparent;
     }
+
+    */
+
+    .nav {
+        padding: 10px;
+    }
+
+    .nav-item{
+        display: none;
+    }
+
+    .hamburguer {
+        display: block;
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+        display: block;
+        z-index: 3;
+    }
+
+    .nav-list-sub{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #164361;
+
+
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+
+        z-index: 2;
+
+        
+    }
+
+    .nav-list-sub .nav-item{
+        display: block;
+        padding: 1.6rem;
+        
+    }
+
+
+    .open{
+        display: block;
+    }
+
+
+
 
     /*submenu*/
     .nav-item-sub:hover ul {
